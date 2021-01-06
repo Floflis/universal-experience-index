@@ -1,6 +1,6 @@
 exports.translations = {
     mainTitle: 'Classifique e melhore o desempenho do computador',
-    mainDescription: 'O Índice de Experiência do Windows avalia os principais componentes do sistema em uma escala de {from} a {to}',
+    mainDescription: 'O Índice de Experiência Universal avalia os principais componentes do sistema em uma escala de {from} a {to}',
     lastUpdate: 'Última atualização de pontuação',
     runAssessment: 'Reexecutar a avaliação',
     poweredBy: "Criado por",

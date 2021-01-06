@@ -1,7 +1,7 @@
 {
-    "name": "windows-experience-index",
-    "version": "0.1.0",
-    "description": "Windows Experience Index",
+    "name": "UniversalExperienceIndex",
+    "version": "0.2.1",
+    "description": "The good-old Windows 7's WEI (Windows Experience Index), now back at Windows 10 as an web/JS UWP app. With this, you can rate your computer's horsepower and compare with others, just like you did in Windows 7's Control Panel.",
     "main": "src/main.js",
     "type": "commonjs",
     "scripts": {
@@ -11,12 +11,12 @@
         "publish": "npx electron-builder -p \"always\""
     },
     "build": {
-        "productName": "Windows Experience Service",
+        "productName": "UniversalExperienceIndex",
         "appId": "thinog.windowsExperienceIndex",
         "compression": "store",
         "win": {
             "icon": "src/assets/img/icon-256.png",
-            "artifactName": "WindowsExperienceIndex_${version}_${os}_${arch}.exe",
+            "artifactName": "UniversalExperienceIndex_${version}_${os}_${arch}.exe",
             "target": [
                 "portable"
             ],
@@ -37,7 +37,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/thinog/windows-experience-index.git"
+        "url": "git+https://github.com/Floflis/universal-experience-index.git"
     },
     "keywords": [
         "electronjs",
@@ -48,9 +48,9 @@
     "author": "Thiago Martins",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/thinog/windows-experience-index/issues"
+        "url": "https://github.com/Floflis/universal-experience-indexissues"
     },
-    "homepage": "https://github.com/thinog/windows-experience-index#readme",
+    "homepage": "https://github.com/Floflis/universal-experience-index#readme",
     "devDependencies": {
         "electron": "^11.1.0",
         "electron-builder": "^22.9.1",

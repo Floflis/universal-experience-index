@@ -17,7 +17,7 @@ async function createWindow() {
             nodeIntegration: true
         }
     });
-    win.webContents.openDevTools();
+    // win.webContents.openDevTools();
     win.removeMenu();
     win.loadFile(`${__dirname}/index.html`);
 
